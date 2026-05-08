@@ -1,4 +1,4 @@
-# WIP
+# Work in Process
 
 # Dolby Vision for Unsupported Monitors on Windows (LLDV EDID Spoofing)
 
