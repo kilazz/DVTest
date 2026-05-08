@@ -56,8 +56,6 @@ By default, Dolby Vision is restricted to certified devices via encrypted ICC pr
 4. In the CRU folder, run `restart64.exe`. Your screen will flicker black a few times as the GPU driver restarts and reads the new Dolby Vision EDID.
 
 ### The 300-Nits Registry Hack
-To prevent standard HDR processing from over-brightening the image and causing highlight clipping on a 300-nit monitor, we must tell the Windows Media Foundation API to cap the tone mapping at 300 nits.
-
 Open **Command Prompt (CMD)** or **PowerShell** as Administrator and run these two commands:
 ```
 REG ADD "HKEY_LOCAL_MACHINE\Software\Microsoft\Windows Media Foundation\SVR" /f
