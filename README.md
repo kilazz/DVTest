@@ -73,6 +73,7 @@ Dolby Vision on Windows works only through the Windows Media Foundation API.
 
 1. Ensure **HDR** is turned ON in Windows Display Settings.
 2. Open the native Windows **Movies & TV** app and play a local Dolby Vision `.mp4` file, OR open the official **Netflix** app.
+3. Display Dolby Vision logo.
 
 ---
 
