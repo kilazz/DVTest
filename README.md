@@ -91,8 +91,6 @@ Make sure you are using the official Netflix App or the "Movies & TV" app. Brows
 ---
 
 ### 📺 HDMI
-**The Fix (Manual Signature Break):**
-You must slightly alter your HEX payload to force the driver into generic **Player-led (LLDV)** mode.
 1. Take your 14-character payload (e.g., `480376825e6d95`).
 2. Locate the **3rd byte** (the 5th and 6th characters). In this example, it is `76`.
 3. Change this value by **1 bit** (usually by adding 1 to make an even number odd).
@@ -104,10 +102,11 @@ You must slightly alter your HEX payload to force the driver into generic **Play
 
 ---
 
+```
 48433719 //UxAccOptimization
 49793372 //DolbyVisionAndUpdatedHdrUx
 54586575 //DolbyVisionVSVDBv4_Support
-```
+
 .\vivetool.exe /enable /id:48433719,49793372
 .\vivetool.exe /enable /id:48433719,54586575
 ```
